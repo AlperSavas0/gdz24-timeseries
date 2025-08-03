@@ -1,0 +1,27 @@
+# Jupyter checkpoint ve cache dosyaları
+.ipynb_checkpoints/
+__pycache__/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Python dosyaları
+*.pyc
+*.pyo
+*.pyd
+
+# Ortam dosyaları
+.venv/
+.env
+env/
+venv/
+
+# Model çıktıları ve geçici dosyalar
+*.log
+
+# VSCode klasörü (isteğe bağlı)
+.vscode/
+
+# Too large files
+data/weather.csv
